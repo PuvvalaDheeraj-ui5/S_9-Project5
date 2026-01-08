@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+.message-card h2 {
+  margin-bottom: 5px;
+  
+}
+.message-card input,
+.message-card textarea {
+  width: 100%;
+  padding: 12px 15px;     
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  box-sizing: border-box;
+  display: block;
+}
+
+.message-card textarea {
+    min-width: 200px;
+  min-height: 10px;
+  resize: vertical; 
+}
+
+
+.message-card button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.message-card button:hover {
+  opacity: 0.85;
+}
+  
+.head {
+    background-color: #0f6d87;
+    color: #ffffff;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 10px;
+    
+}
+
+.nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+    border-radius: 10px;
+}
+
+.nav a:hover {
+    border-color: #ffd369;
+}
+
+.head h1 {
+    font-size: 1.8rem;
+    margin-left: 300px;
+    margin-right: auto;
+    font-weight: 500;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+.contact-card {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 35px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 900px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+
+
+.photo-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.photo-section img {
+    width: 170px;
+    height: 170px;
+    border-radius: 8px;
+    object-fit: cover;
+    border: 3px solid #1f3c88;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-radius: 10px;
+}
+
+.info-section p {
+    font-size: 1rem;
+    display: flex;
+}
+
+.info-section span {
+    width: 140px;
+    font-weight: 600;
+    color: #1f3c88;
+    
+}
